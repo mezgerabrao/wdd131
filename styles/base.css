@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* HEADER */
+header {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+}
+
+#course-title {
+    display: block;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    flex: 1;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* MAIN */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+}
+
+/* CARD */
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+/* FIX 1: border-radius no topo + centralizado */
+.card h2 {
+    background-color: #1f4e79;
+    color: white;
+    padding: 0.5rem;
+    margin: -1rem -1rem 1rem -1rem;
+    border-radius: 7px 7px 0 0;
+    text-align: center;
+}
+
+/* ABOUT SECTION */
+.about {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.about img {
+    width: 120px;
+    border-radius: 5px;
+}
+
+/* FIX 2: h3 com linhas decorativas laterais */
+h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 1rem 0 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+h3::before,
+h3::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+
+/* LOCATION */
+.location {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+/* FIX 3: figure com legenda abaixo da bandeira */
+.flag-figure {
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.flag-figure img {
+    width: 150px;
+    display: block;
+}
+
+.flag-figure figcaption {
+    font-style: italic;
+    font-size: 0.8rem;
+    color: #555;
+    margin-top: 0.3rem;
+}
+
+/* LIST */
+ul {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+}
+
+/* FIX 4: cor amarela na linha de data */
+#lastModified {
+    color: #f0c040;
+    font-size: 0.85rem;
+}

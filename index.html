@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 – Dynamic Web Fundamentals – Mezger Abrão</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Mezger Abrão | HTML, CSS, JavaScript homepage assignment">
+    <meta name="author" content="Mezger Abrão">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/base.css">
+
+    <!-- JS -->
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131 - Mezger Abrão</h1>
+
+<header>
+    <span id="course-title">WDD 131: Dynamic Web Fundamentals</span>
+
+    <nav>
+        <a href="https://www.linkedin.com/in/mezger-abrao/" target="_blank">LinkedIn</a>
+        <a href="https://byupw.instructure.com/" target="_blank">I-Learn</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p12#p12" target="_blank">Scripture</a>
+        <a href="#">Final Project</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Mezger Abrão</h1>
+
+    <div class="grid">
+        <!-- Card 1 -->
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="about">
+                <p>
+                    My name is Mezger and I live in Brazil. I have experience in Product Marketing and Growth, 
+                    working with data, strategy, and cross-functional teams. I enjoy learning new technologies 
+                    and building meaningful digital experiences.
+                </p>
+                <img src="images/profile.jpg" alt="Profile photo">
+            </div>
+
+            <h3>Salvador - Bahia, Brazil</h3>
+            <div class="location">
+                <figure class="flag-figure">
+                    <img src="images/flag.webp" alt="Brazil flag">
+                    <figcaption>Official Brazil's Flag</figcaption>
+                </figure>
+                <p>
+                    Brazil is the largest country in South America and known for its diverse culture,
+                    vibrant cities, and natural beauty. Salvador is famous for its history, music, and coastline.
+                </p>
+            </div>
+        </section>
+
+        <!-- Card 2 -->
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://dev.to/" target="_blank">Dev.to Community</a></li>
+                <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+                <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+                <li><a href="https://codepen.io/" target="_blank">Codepen</a></li>
+                <li><a href="https://squoosh.app/" target="_blank">Squoosh</a></li>
+            </ul>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <p>
+        © <span id="currentyear"></span> 🤜🤛 Mezger Abrão 🤜🤛 Brazil
+    </p>
+    <p id="lastModified"></p>
+</footer>
+
 </body>
 </html>
