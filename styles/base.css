@@ -68,7 +68,6 @@ h1 {
     border: 1px solid #ccc;
 }
 
-/* FIX 1: border-radius no topo + centralizado */
 .card h2 {
     background-color: #1f4e79;
     color: white;
@@ -90,7 +89,6 @@ h1 {
     border-radius: 5px;
 }
 
-/* FIX 2: h3 com linhas decorativas laterais */
 h3 {
     display: flex;
     align-items: center;
@@ -116,7 +114,6 @@ h3::after {
     margin-top: 1rem;
 }
 
-/* FIX 3: figure com legenda abaixo da bandeira */
 .flag-figure {
     text-align: center;
     flex-shrink: 0;
@@ -153,7 +150,6 @@ footer {
     margin-top: 20px;
 }
 
-/* FIX 4: cor amarela na linha de data */
 #lastModified {
     color: #f0c040;
     font-size: 0.85rem;
