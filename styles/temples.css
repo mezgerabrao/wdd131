@@ -47,10 +47,9 @@ header h1 {
 }
 
 /* NAVIGATION */
-.navigation {
+nav {
     display: flex;
     flex-direction: column;
-    list-style: none;
 }
 
 .navigation a {
