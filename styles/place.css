@@ -17,8 +17,8 @@
 
 body {
     font-family: var(--font-main);
-    background-color: #f4f4f4;
-    color: #222;
+    background-color: var(--light-color);
+    color: var(--dark-color);
 }
 
 header {
@@ -43,7 +43,7 @@ main {
 }
 
 .card {
-    background-color: rgba(255,255,255,0.92);
+    background-color: var(--light-color);
     padding: 1.5rem;
     margin: 1rem;
     border-radius: 10px;
@@ -67,7 +67,7 @@ main {
 
 footer {
     background-color: var(--dark-color);
-    color: white;
+    color: var(--light-color);
     text-align: center;
     padding: 1rem;
 }
