@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brazil | WDD 131</title>
+
+    <meta name="description" content="WDD 131 Country Page Assignment about Brazil">
+    <meta name="author" content="Mezger Abrão">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/place.css">
+
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Brazil</h1>
+</header>
+
+<main>
+
+    <div class="hero">
+        <picture>
+            <source srcset="images/brazil-large.webp" media="(min-width: 1000px)">
+            <source srcset="images/brazil-medium.webp" media="(min-width: 600px)">
+            <img src="images/brazil-small.webp"
+                 alt="Beautiful beach landscape in Salvador Brazil"
+                 width="1500"
+                 height="750">
+        </picture>
+    </div>
+
+    <section class="card data">
+        <h2>Data</h2>
+
+        <p><strong>Area:</strong> 8.5 million km²</p>
+        <p><strong>Population:</strong> 203 million</p>
+        <p><strong>Capital:</strong> Brasília</p>
+        <p><strong>Language:</strong> Portuguese</p>
+        <p><strong>Currency:</strong> Brazilian Real</p>
+        <p><strong>Time Zone:</strong> UTC -3</p>
+    </section>
+
+    <section class="card weather">
+        <h2>Weather</h2>
+
+        <img src="images/weather.svg"
+             alt="Weather Icon"
+             class="weather-icon"
+             width="60"
+             height="60">
+
+        <p><strong>Temperature:</strong> <span id="temperature">28</span> °C</p>
+        <p><strong>Conditions:</strong> Sunny</p>
+        <p><strong>Wind:</strong> <span id="windspeed">12</span> km/h</p>
+        <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
+    </section>
+
+</main>
+
+<footer>
+    <p>
+        © <span id="currentyear"></span> 🤜🤛 Mezger Abrão 🤜🤛 Brazil
+    </p>
+
+    <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>
