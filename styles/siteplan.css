@@ -156,6 +156,28 @@ ul li {
   height: 64px;
 }
 
+.swatch-primary {
+  background: var(--color-primary);
+}
+
+.swatch-accent {
+  background: var(--color-accent);
+}
+
+.swatch-dark {
+  background: var(--color-dark);
+}
+
+.swatch-bg {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+}
+
+.swatch-surface {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+}
+
 .swatch-info {
   padding: 0.55rem 0.8rem;
   background: var(--color-surface);
