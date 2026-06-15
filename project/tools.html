@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Mezger Abrão">
+
+  <meta
+    name="description"
+    content="Explore AI tools used by Product Marketing and Growth teams to automate workflows, generate content, and improve customer engagement."
+  >
+
+  <title>AI Growth Hub | AI Tools</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/site.css">
+
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/tools.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+  <div class="top-bar">
+
+    <div class="logo-container">
+
+      <div class="logo-group">
+
+        <img
+          src="images/logo_project.svg"
+          alt="AI Growth Hub logo"
+          class="logo"
+          width="48"
+          height="48"
+        >
+
+        <div class="logo-text">
+          AI<span>Growth</span>Hub
+        </div>
+
+      </div>
+
+      <button id="menu-button" aria-label="Open Navigation Menu">
+        ☰
+      </button>
+
+    </div>
+
+    <nav class="navigation">
+      <a href="index.html">Home</a>
+      <a href="tools.html">AI Tools</a>
+      <a href="strategies.html">Growth Strategies</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+  </div>
+
+</header>
+
+<main>
+
+  <section class="section">
+
+    <h1>AI Tools for Product Marketing & Growth</h1>
+
+    <p>
+      Artificial Intelligence tools help marketing and growth teams automate repetitive work, generate content, analyze customer behavior, and improve decision-making.
+    </p>
+
+  </section>
+
+  <section class="section">
+
+    <h2>Filter by Category</h2>
+
+    <div class="filter-container">
+
+      <button
+        class="button filter-btn"
+        data-category="all"
+      >
+        All
+      </button>
+
+      <button
+        class="button filter-btn"
+        data-category="content"
+      >
+        Content Creation
+      </button>
+
+      <button
+        class="button filter-btn"
+        data-category="research"
+      >
+        Research
+      </button>
+
+      <button
+        class="button filter-btn"
+        data-category="automation"
+      >
+        Automation
+      </button>
+
+    </div>
+
+  </section>
+
+  <section class="section">
+
+    <div
+      id="toolContainer"
+      class="card-grid"
+    ></div>
+
+  </section>
+
+</main>
+
+<footer>
+
+  <p>
+    <a href="references.html">References</a>
+  </p>
+
+  <p>
+    © <span id="currentYear"></span> | Mezger Abrão
+  </p>
+
+  <p id="lastModified"></p>
+
+</footer>
+
+<button id="backToTop" aria-label="Back to top">
+  ↑
+</button>
+
+</body>
+</html>

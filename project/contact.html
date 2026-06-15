@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="author"
+    content="Mezger Abrão"
+  >
+
+  <meta
+    name="description"
+    content="Contact AI Growth Hub and subscribe to receive updates about AI tools, growth strategies, and product marketing trends."
+  >
+
+  <title>AI Growth Hub | Contact</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles/site.css">
+
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/contact.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+  <div class="top-bar">
+
+    <div class="logo-container">
+
+      <div class="logo-group">
+
+        <img
+          src="images/logo_project.svg"
+          alt="AI Growth Hub logo"
+          class="logo"
+          width="48"
+          height="48"
+        >
+
+        <div class="logo-text">
+          AI<span>Growth</span>Hub
+        </div>
+
+      </div>
+
+      <button id="menu-button" aria-label="Open Navigation Menu">
+        ☰
+      </button>
+
+    </div>
+
+    <nav class="navigation">
+      <a href="index.html">Home</a>
+      <a href="tools.html">AI Tools</a>
+      <a href="strategies.html">Growth Strategies</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+  </div>
+
+</header>
+
+<main>
+
+  <section class="section">
+
+    <h1>Contact & Newsletter</h1>
+
+    <p>
+      Interested in learning more about Artificial Intelligence in Product Marketing and Growth? Subscribe to receive updates and resources.
+    </p>
+
+    <p>
+      Current Subscribers:
+      <strong id="subscriberCount">0</strong>
+    </p>
+
+  </section>
+
+  <section class="section">
+
+    <form id="contactForm">
+
+      <label for="name">Name *</label>
+
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+      >
+
+      <label for="email">Email *</label>
+
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+      >
+
+      <label for="interest">Area of Interest</label>
+
+      <select
+        id="interest"
+        name="interest"
+      >
+
+        <option value="Product Marketing">
+          Product Marketing
+        </option>
+
+        <option value="Growth">
+          Growth
+        </option>
+
+        <option value="Analytics">
+          Analytics
+        </option>
+
+        <option value="AI Tools">
+          AI Tools
+        </option>
+
+      </select>
+
+      <label for="message">Message</label>
+
+      <textarea
+        id="message"
+        name="message"
+      ></textarea>
+
+      <button
+        type="submit"
+        class="button"
+      >
+        Subscribe
+      </button>
+
+    </form>
+
+    <div id="confirmationMessage"></div>
+
+  </section>
+
+</main>
+
+<footer>
+
+  <p>
+    <a href="references.html">References</a>
+  </p>
+
+  <p>
+    © <span id="currentYear"></span> | Mezger Abrão
+  </p>
+
+  <p id="lastModified"></p>
+
+</footer>
+
+<button id="backToTop" aria-label="Back to top">
+  ↑
+</button>
+
+</body>
+</html>
